@@ -1,0 +1,78 @@
+body{
+    background: url('https://i.pinimg.com/736x/7b/22/27/7b22273994be3e3290bfcb1077d51219.jpg');
+    background-size: cover;
+}
+
+.all{
+    top: 0;
+    left: 0;
+    z-index: 90;
+    border-bottom: 1px springgreen;
+}
+
+.atas{
+    position: fixed;
+    top: 0;
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.atas img{
+    margin-left: 5rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.atas img:hover{
+    transform: scale(1.05);
+}
+
+.atas h1{
+    margin-left: 3rem;
+    margin-top: 10px;
+}
+
+.atas ul{
+    display: flex;
+    align-items: right;
+    margin-right: 2rem;
+    margin-left: 35rem;
+    margin-left: auto;          /*supaya pas layar kecil mengikuti dengan syarat width di header 100%*/
+}
+
+.atas li{
+    display: inline-block;
+    margin-right: 2rem;
+    position: relative;
+}
+
+#home,#about{
+    scroll-margin-top: 180px;
+}
+
+.tengah{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 220px;
+    margin-bottom:80px;
+    background-color: aqua;
+}
+
+.tengah h3{
+    align-items: center;
+}
+
+.conten2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 100px;
+    width: 60%;
+    margin-top: 400px;
+}
